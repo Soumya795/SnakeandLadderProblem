@@ -15,12 +15,9 @@ public class snakeandladderproblem {
                     {
                         case No_Play : Play1=false;
                             break ;
-
                         case Ladder : Player1Position+=DieRoll;
-                            Play1 =true;
                             break;
                         case Snake : Player1Position-=DieRoll;
-                            Play1=false;
                             break;
                         default : 		break;
                     }
@@ -37,12 +34,9 @@ public class snakeandladderproblem {
                     {
                         case No_Play : Play1=true;
                             break ;
-
                         case Ladder : Player2Position+=DieRoll;
-                            Play1 =false;
                             break;
                         case Snake : Player2Position-=DieRoll;
-                            Play1=true;
                             break;
                         default : 		break;
                     }
